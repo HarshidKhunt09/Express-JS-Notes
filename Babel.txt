@@ -1,0 +1,17 @@
+Babel Setup
+
+npm install --save-dev babel-cli babel-preset-env babel-preset-stage-0
+
+Replace test into the package.json file to start.
+
+"start": "nodemon ./index.js --exec babel-node -e js"
+
+Create .babelrc
+
+.babelrc
+{
+    "presets": [
+        "env",
+        "stage-0"
+    ]
+}
