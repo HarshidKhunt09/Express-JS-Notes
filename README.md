@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ## Babel Setup
 
+## Running a project
+
 In the project directory, you can run:
 
 ### `npm start`
